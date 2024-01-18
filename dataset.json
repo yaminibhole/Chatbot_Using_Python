@@ -1,0 +1,77 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": ["Hi there", "How are you", "Is anyone there?", "Hey", "Hola", "Hello", "Good day"],
+        "responses": ["Hello", "Good to see you again", "Hi there, how can I help?"],
+        "context": [""]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+        "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+        "context": [""]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+        "responses": ["My pleasure", "You're welcome"],
+        "context": [""]
+      },
+      {
+        "tag": "query",
+        "patterns": ["Who is Jin?", "Tell me about Jin", "Jin's background", "What can you tell me about Jin?"],
+        "responses": ["Jin is a member of the band BTS. He is known for his good looks and talent."],
+        "context": [""]
+      },
+      {
+        "tag": "compliment",
+        "patterns": ["You're great", "I like your service", "You're doing well", "Good job", "Impressive"],
+        "responses": ["Thank you! I appreciate your kind words.", "I'm here to help. Let me know if you have any questions."],
+        "context": [""]
+      },
+      {
+        "tag": "weather",
+        "patterns": ["What's the weather like?", "Tell me the weather forecast", "Weather update"],
+        "responses": ["I'm sorry, I'm not equipped to provide weather information."],
+        "context": [""]
+      },
+      {
+        "tag": "joke",
+        "patterns": ["Tell me a joke", "Give me a joke", "Joke time"],
+        "responses": ["Why don't scientists trust atoms? Because they make up everything!"],
+        "context": [""]
+      },
+      {
+        "tag": "unknown",
+        "patterns": ["I don't know", "Not sure", "No idea"],
+        "responses": ["That's okay. If you have any questions, feel free to ask."],
+        "context": [""]
+      },
+      {
+        "tag": "gaming",
+        "patterns": ["What's your favorite game?", "Tell me about popular games", "Gaming recommendations"],
+        "responses": ["I'm just a chatbot, so I don't play games, but I can help you find information about them."],
+        "context": [""]
+      },
+      {
+        "tag": "technology",
+        "patterns": ["Latest tech news", "Tell me about AI", "Tech trends"],
+        "responses": ["I can provide you with the latest tech news and information. What are you interested in?"],
+        "context": [""]
+      },
+      {
+        "tag": "movies",
+        "patterns": ["Recommend a movie", "Top-rated films", "Favorite movie genres"],
+        "responses": ["There are many great movies out there. What genre are you in the mood for?"],
+        "context": [""]
+      },
+      {
+        "tag": "book_recommendation",
+        "patterns": ["Suggest a book", "Good books to read", "Favorite authors"],
+        "responses": ["I can recommend some excellent books based on your preferences. What genre do you enjoy?"],
+        "context": [""]
+      }
+    ]
+  }
+  
