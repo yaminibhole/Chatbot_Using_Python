@@ -1,2 +1,2 @@
 # Simple Python Chatbot
-This is a simple Python chatbot that uses a trained model to understand user input and generate appropriate responses. The chatbot is designed to be easy to use and can be customized based on your needs.
+This repository contains the source code for a simple chatbot implemented in Python using the TensorFlow and Keras libraries for natural language processing. The chatbot is trained on a dataset of intents, allowing it to understand and respond to user input based on pre-defined patterns.
